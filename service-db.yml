@@ -1,5 +1,17 @@
 server:
   port: 8000
 spring:
-  application:
-    name: service-db
+  datasource:
+    url: jdbc:h2:mem:cloud
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: sa
+    data: classpath:data/*.sql
+  jpa:
+    database: h2
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      path: /h2-console
+      enabled: true
