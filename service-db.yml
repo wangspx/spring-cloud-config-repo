@@ -10,7 +10,7 @@ spring:
   jpa:
     database: h2
     hibernate:
-      ddl-auto: update
+      ddl-auto: create-drop
   h2:
     console:
       path: /h2-console
