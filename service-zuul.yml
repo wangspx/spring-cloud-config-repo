@@ -14,5 +14,5 @@ zuul:
     addProxyHeaders: true
   routes:
     user:
-      path: /v1/users
+      path: /v1/users/**
       service-id: SERVICE-USER
