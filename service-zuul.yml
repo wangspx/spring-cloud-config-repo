@@ -1,6 +1,7 @@
 server:
   port: 80
-routes:
-  user:
-    path: /v1/users
-    service-id: SERVICE-USER
+zuul:
+  routes:
+    user:
+      path: /v1/users
+      service-id: SERVICE-USER
