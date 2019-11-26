@@ -15,4 +15,4 @@ zuul:
   routes:
     user:
       path: /v1/users/**
-      service-id: SERVICE-USER
+      serviceId: SERVICE-USER
