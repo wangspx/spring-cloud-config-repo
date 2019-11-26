@@ -13,6 +13,9 @@ zuul:
   proxy:
     addProxyHeaders: true
   routes:
+    baidu:
+      path: /baidu/**
+      url: https://www.baidu.com/
     user:
       path: /v1/users/**
       serviceId: SERVICE-USER
