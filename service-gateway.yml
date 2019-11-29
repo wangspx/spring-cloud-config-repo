@@ -19,4 +19,4 @@ zuul:
     user:
       path: /v1/users/**
       serviceId: SERVICE-USER
-      strip-prefix: false
+      strip-prefix: true
